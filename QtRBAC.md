@@ -2,8 +2,6 @@
 
 基于角色访问控制的Linux安全模块，QtRBAC是我给这个实现的模块自定义的一个名称。
 
-> 秦婷     202028018670080
-
 ## 1 模块介绍
 
 Linux安全模块（LSM）是Linux内核的一个轻量级通用访问控制框架，但在内核2.6.x后，LSM模块不再运行动态加载到内核，而需要将模块编译进内核，于是需要编写Makefile以及Kconfig，除`kernel/security/demo`中的Makefile和Kconfig可以直接复制使用外，`kernel/security`中的Makefile以及Kconfig应该在当前内核源码所提供的内容上添加。
